@@ -1,0 +1,32 @@
+{
+  "name": "voice-agent-server",
+  "version": "1.0.0",
+  "description": "AI Voice Agent Server for Karthik's Portfolio - Twilio, Groq, Deepgram, ElevenLabs",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "voice-agent",
+    "twilio",
+    "groq",
+    "deepgram",
+    "elevenlabs"
+  ],
+  "author": "Karthik Tatineni",
+  "license": "MIT",
+  "dependencies": {
+    "@deepgram/sdk": "^3.13.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "firebase-admin": "^14.0.0",
+    "groq-sdk": "^1.2.1",
+    "twilio": "^6.0.2",
+    "ws": "^8.21.0"
+  }
+}
